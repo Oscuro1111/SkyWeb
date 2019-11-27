@@ -1,0 +1,19 @@
+body {
+    background-color: mediumslateblue;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: none;
+}
+
+span {
+    font-family: HACKED;
+    margin: 20px;
+    font-size: 45px;
+}
+
+#header-image {
+    height: 75px;
+    width: 200px;
+}
