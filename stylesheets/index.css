@@ -47,10 +47,22 @@ body {
 
 .username {
     margin-left: 30%;
+    padding: 2%;
+    border-radius: 10px;
+    background: rgba(13, 70, 228, 0.5);
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5) inset;
+    color: black;
 }
 
 .password {
     margin-left: 30%;
+    padding: 2%;
+    border-radius: 10px;
+    background: rgba(13, 70, 228, 0.5);
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5) inset;
+    color: black;
 }
 
 #login-button {
@@ -84,7 +96,18 @@ body {
     font-family: Hacked;
 }
 
-#login-button :hover {
-    font-family: hacked;
-    font-size: 40px;
+#login-button:hover {
+    font-family: "hacked";
+    font-size: 15px;
+}
+
+#new-user {
+    margin-top: 40%;
+}
+
+.new-user {
+    box-sizing: border-box;
+    border-color: rgb(11, 124, 11) dashed;
+    border-width: 5px;
+    padding: 5px;
 }
