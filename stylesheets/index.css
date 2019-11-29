@@ -1,6 +1,90 @@
 body {
-    background-image: url("../Images/background.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgb(115, 31, 226);
     font-size: 14px;
+    background-repeat: repeat;
+    background-size: 150px 150px;
+}
+
+.head {
+    font-family: "hacked";
+    color: rgb(9, 50, 138);
+    font-size: 70px;
+    text-shadow: 5px 5px 5px grey;
+}
+
+#username {
+    font-size: 40px;
+    text-shadow: 5px 5px 5px grey;
+    margin-left: 30%;
+}
+
+.login {
+    transform: translate(-50% -50%);
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(8, 201, 169, 0.5);
+    color: rgb(9, 50, 138);
+    box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.5) inset;
+    left: 30%;
+    right: 30%;
+    height: auto;
+    width: auto;
+    border-radius: 10%;
+}
+
+#password {
+    font-size: 40px;
+    text-shadow: 5px 5px 5px grey;
+    margin-left: 30%;
+}
+
+.login-image {
+    margin-left: 35%;
+    margin-top: -60px;
+    height: 120px;
+    width: 120px;
+}
+
+.username {
+    margin-left: 30%;
+}
+
+.password {
+    margin-left: 30%;
+}
+
+#login-button {
+    margin-left: 40%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 30%;
+    color: black;
+    background-color: rgb(115, 31, 226);
+    padding: 20px;
+    box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.5) inset;
+}
+
+#forgotten {
+    margin-left: 35%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    margin-top: 50%;
+    background-color: rgba(182, 174, 174, 0.74);
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 20px;
+    font-family: Hacked;
+}
+
+#login-button :hover {
+    font-family: hacked;
+    font-size: 40px;
 }
