@@ -1,15 +1,21 @@
 body {
-    background-color: rgb(115, 31, 226);
-    font-size: 14px;
+    background-image: url("../Images/background.png");
     background-repeat: repeat;
+    background-size: 300px 300px;
+    font-size: 14px;
     background-size: 150px 150px;
+}
+
+@font-face {
+    font-family: hacked;
+    src: url("https://www.urbanfonts.com/fonts/HACKED.font");
 }
 
 .head {
     font-family: "hacked";
-    color: rgb(9, 50, 138);
+    color: rgb(255, 255, 255);
     font-size: 70px;
-    text-shadow: 5px 5px 5px grey;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 #username {
@@ -22,9 +28,9 @@ body {
     transform: translate(-50% -50%);
     box-sizing: border-box;
     position: absolute;
-    background: rgba(8, 201, 169, 0.5);
-    color: rgb(9, 50, 138);
-    box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(167, 167, 167, 0.2);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
     left: 30%;
     right: 30%;
     height: auto;
@@ -49,9 +55,9 @@ body {
     margin-left: 30%;
     padding: 2%;
     border-radius: 10px;
-    background: rgba(13, 70, 228, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.5) inset;
     color: black;
 }
 
@@ -59,9 +65,9 @@ body {
     margin-left: 30%;
     padding: 2%;
     border-radius: 10px;
-    background: rgba(13, 70, 228, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.5) inset;
     color: black;
 }
 
@@ -71,7 +77,7 @@ body {
     margin-top: 40px;
     border-radius: 30%;
     color: black;
-    background-color: rgb(115, 31, 226);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.5) inset;
 }
