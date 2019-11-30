@@ -1,4 +1,10 @@
+
+@font-face {
+    font-family: hacked;
+    src: url("./HACKED.ttf");
+}
 body {
+    font-family: hacked;
     background-image: url("../Images/background.png");
     background-repeat: repeat;
     background-size: 300px 300px;
@@ -6,13 +12,9 @@ body {
     background-size: 150px 150px;
 }
 
-@font-face {
-    font-family: hacked;
-    src: url("https://www.urbanfonts.com/fonts/HACKED.font");
-}
+
 
 .head {
-    font-family: "hacked";
     color: rgb(255, 255, 255);
     font-size: 70px;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
