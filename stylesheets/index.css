@@ -28,8 +28,8 @@ body {
     transform: translate(-50% -50%);
     box-sizing: border-box;
     position: absolute;
-    background: rgba(167, 167, 167, 0.2);
-    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
     left: 30%;
     right: 30%;
@@ -72,14 +72,11 @@ body {
 }
 
 #login-button {
-    margin-left: 40%;
-    box-sizing: border-box;
-    margin-top: 40px;
-    border-radius: 30%;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.5) inset;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 45%;
+    cursor: pointer;
 }
 
 #forgotten {
@@ -103,12 +100,12 @@ body {
 }
 
 #login-button:hover {
-    font-family: "hacked";
-    font-size: 15px;
+    transform: scale(1.5, 1.5);
 }
 
 #new-user {
     margin-top: 40%;
+    opacity: 1;
 }
 
 .new-user {
